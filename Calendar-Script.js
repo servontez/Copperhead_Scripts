@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Scheduler Timer
+// @namespace    http://tampermonkey.net/
+// @version      2025-07-02
+// @description  Adds a line to the Scheduler to display the current time of day.
+// @author       Drew Nicholas
+// @match        https://copperhead-diesel.shop-ware.com/estimates
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=shop-ware.com
+// @grant        none
+// ==/UserScript==
+
 
 setTimeout(function() {
   const container = document.getElementById('scheduler');
