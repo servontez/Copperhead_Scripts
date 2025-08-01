@@ -39,7 +39,7 @@ setTimeout(function() {
   line.style.width = '100%';
   line.style.height = '2px';
   line.style.backgroundColor = 'red';
-  line.style.zIndex = '10001';
+  line.style.zIndex = '10';
   line.style.display = 'none'; // Hide until in range
   calendar.appendChild(line);
 
